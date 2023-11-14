@@ -1,0 +1,3 @@
+C:/Users/ACER/CLionProjects/untitled2/-Colecci-n-de-Ejercicios-STL/cmake-build-debug/CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir
+C:/Users/ACER/CLionProjects/untitled2/-Colecci-n-de-Ejercicios-STL/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ACER/CLionProjects/untitled2/-Colecci-n-de-Ejercicios-STL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
