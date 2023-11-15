@@ -61,8 +61,14 @@ build CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
   OBJECT_FILE_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
 
-build CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj: CXX_COMPILER___Colecci_n_de_Ejercicios_STL_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/-Colecci-n-de-Ejercicios-STL/cmake-build-debug/circulo.cpp || cmake_object_order_depends_target__Colecci_n_de_Ejercicios_STL
+build CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj: CXX_COMPILER___Colecci_n_de_Ejercicios_STL_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/-Colecci-n-de-Ejercicios-STL/circulo.cpp || cmake_object_order_depends_target__Colecci_n_de_Ejercicios_STL
   DEP_FILE = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir\circulo.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
+
+build CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/ciencia.cpp.obj: CXX_COMPILER___Colecci_n_de_Ejercicios_STL_unscanned_Debug C$:/Users/ACER/CLionProjects/untitled2/-Colecci-n-de-Ejercicios-STL/ciencia.cpp || cmake_object_order_depends_target__Colecci_n_de_Ejercicios_STL
+  DEP_FILE = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir\ciencia.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
   OBJECT_FILE_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
@@ -75,7 +81,7 @@ build CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable _Colecci_n_de_Ejercicios_STL.exe
 
-build _Colecci_n_de_Ejercicios_STL.exe: CXX_EXECUTABLE_LINKER___Colecci_n_de_Ejercicios_STL_Debug CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj
+build _Colecci_n_de_Ejercicios_STL.exe: CXX_EXECUTABLE_LINKER___Colecci_n_de_Ejercicios_STL_Debug CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj CMakeFiles/_Colecci_n_de_Ejercicios_STL.dir/ciencia.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\_Colecci_n_de_Ejercicios_STL.dir
