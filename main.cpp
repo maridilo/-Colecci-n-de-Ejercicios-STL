@@ -25,9 +25,13 @@ int main() {
     double altura = 7;
     double radio = 5;
 
+    //Calcular el area del triangulo
     double areaTriangulo = Geometria::calcularAreaTriangulo(base, altura);
     cout <<"Area del triangulo: " << Geometria::calcularAreaTriangulo(5,7) << endl;
-    double areaCirculo = Geometria::calcularAreaCirculo(radio);
-    cout <<"Area del circulo: " << Geometria::calcularAreaCirculo(5) << endl;
+
+    Geometria::Circulo c(5);
+    std::cout << "Area: " << c.calcularArea() << std::endl;
+    std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
+
     return 0;
 }
