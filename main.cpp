@@ -2,6 +2,7 @@
 #include "triangulo.cpp"
 #include "circulo.cpp"
 
+
 using namespace std;
 
 // Definición del espacio de nombres Matematicas
@@ -29,7 +30,7 @@ int main() {
     double areaTriangulo = Geometria::calcularAreaTriangulo(base, altura);
     cout <<"Area del triangulo: " << Geometria::calcularAreaTriangulo(5,7) << endl;
 
-    Geometria::Circulo c(5);
+    Geometria::Circulo (radio)
     std::cout << "Area: " << c.calcularArea() << std::endl;
     std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
 

@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <cmath>
 
 namespace Geometria {
     class circulo {
