@@ -1,4 +1,6 @@
 #include<iostream>
+#include "triangulo.cpp"
+#include "circulo.cpp"
 
 using namespace std;
 
@@ -13,8 +15,19 @@ namespace Matematicas {
         return a - b;
     }
 }
-int main(){
+
+int main() {
+
     cout <<"Suma: " << Matematicas::suma(5,7) << endl;
     cout <<"Resta: " << Matematicas::resta(5,7) << endl;
+
+    double base = 5;
+    double altura = 7;
+    double radio = 5;
+
+    double areaTriangulo = Geometria::calcularAreaTriangulo(base, altura);
+    cout <<"Area del triangulo: " << Geometria::calcularAreaTriangulo(5,7) << endl;
+    double areaCirculo = Geometria::calcularAreaCirculo(radio);
+    cout <<"Area del circulo: " << Geometria::calcularAreaCirculo(5) << endl;
     return 0;
 }
